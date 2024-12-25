@@ -1,7 +1,7 @@
 <wxs module="util" src="../util.wxs" />
 
 <view class="container white" wx:if="{{allItems.length === 0}}">
-  <image class="background" src="Images/None.png" mode="aspectFit" />
+  <image class="background" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/None.png" mode="aspectFit" />
   <view class="title">这里空空如也...</view>
   <view class="subtitle">去申请任务攒积分买点吧~</view>
 </view>
@@ -22,7 +22,7 @@
             <view class="item-info_title">{{util.filterStr(item.title, 10)}}</view>
             <view class="item-info_date">📅 {{util.cutStr(item.date, 10)}} 购买</view>
           </view>
-          <image wx:if="{{item.star}}" class="star" src="Images/Star.png" />
+          <image wx:if="{{item.star}}" class="star" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/Star.png" />
         </view>
       </mp-slideview>
     </view>
@@ -38,7 +38,7 @@
             <view class="item-info_title">{{util.filterStr(item.title, 10)}}</view>
             <view class="item-info_date">📅 {{util.cutStr(item.date, 10)}} 购买</view>
           </view>
-          <image wx:if="{{item.star}}" class="star" src="Images/Star.png" />
+          <image wx:if="{{item.star}}" class="star" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/Star.png" />
         </view>
       </mp-slideview>
     </view>

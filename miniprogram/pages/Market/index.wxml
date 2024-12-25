@@ -1,7 +1,7 @@
 <wxs module="util" src="../util.wxs" />
 
 <view class="container white" wx:if="{{allItems.length === 0}}">
-  <image class="background" src="Images/None.png" mode="aspectFit" />
+  <image class="background" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/None.png" mode="aspectFit" />
   <view class="title">暂无商品</view>
   <view class="subtitle">好像什么商品也没有...</view>
 </view>
@@ -13,9 +13,9 @@
 
 <swiper wx:if="{{allItems.length > 0}}" indicator-dots="true" autoplay="true" interval="2000" duration="500" 
 style="background: white; height: 200px; width: 100%;">
-  <swiper-item><image src="Images/MarketCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-  <swiper-item><image src="Images/MarketCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-  <swiper-item><image src="Images/MarketCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+  <swiper-item><image src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/商城界面/travel1.png" mode='widthFix' class="swiper-image" /></swiper-item>
+  <swiper-item><image src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/商城界面/travel3.png" mode='widthFix' class="swiper-image" /></swiper-item>
+  <swiper-item><image src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/商城界面/travel2.png" mode='widthFix' class="swiper-image" /></swiper-item>
 </swiper>
 
 <view class="container" wx:if="{{allItems.length > 0}}">
@@ -36,10 +36,10 @@ style="background: white; height: 200px; width: 100%;">
             <view class="item-info_date">📅 {{util.cutStr(item.date, 10)}} 创建</view>
           </view>
           <view class="item-info_author">
-            <image style="position: absolute; width: 100%; bottom: 0;" wx:if="{{item._openid === _openidA}}" mode="widthFix" src="Images/MarketA.png"/>
-            <image style="position: absolute; width: 100%; bottom: 0;" wx:if="{{item._openid === _openidB}}" mode="widthFix" src="Images/MarketB.png"/>
+            <image style="position: absolute; width: 100%; bottom: 0;" wx:if="{{item._openid === _openidA}}" mode="widthFix" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/User/MissionA.png"/>
+            <image style="position: absolute; width: 100%; bottom: 0;" wx:if="{{item._openid === _openidB}}" mode="widthFix" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/User/MissionB.png"/>
           </view>
-          <image wx:if="{{item.star}}" class="star" src="Images/Star.png" />
+          <image wx:if="{{item.star}}" class="star" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/Star.png" />
         </view>
       </mp-slideview>
     </view>
@@ -57,10 +57,10 @@ style="background: white; height: 200px; width: 100%;">
             <view class="item-info_date">📅 {{util.cutStr(item.date, 10)}} 创建</view>
           </view>
           <view class="item-info_author">
-              <image style="position: absolute; width:100%; bottom: 0;" wx:if="{{item._openid === _openidA}}" mode="widthFix" src="Images/MarketA.png"/>
-              <image style="position: absolute; width:100%; bottom: 0;" wx:if="{{item._openid === _openidB}}" mode="widthFix" src="Images/MarketB.png"/>
+              <image style="position: absolute; width:100%; bottom: 0;" wx:if="{{item._openid === _openidA}}" mode="widthFix" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/User/MissionA.png"/>
+              <image style="position: absolute; width:100%; bottom: 0;" wx:if="{{item._openid === _openidB}}" mode="widthFix" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/User/MissionB.png"/>
           </view>
-          <image wx:if="{{item.star}}" class="star" src="Images/Star.png" />
+          <image wx:if="{{item.star}}" class="star" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/Star.png" />
         </view>
       </mp-slideview>
     </view>

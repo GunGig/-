@@ -24,7 +24,7 @@
   <view class="form-group" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);">
     <view class="form-cell">
       <view class="slide">
-        <view class="title">欢迎！胖龙和奶龙！</view>
+        <view class="title">欢迎！林同学和林老师！</view>
       </view>
     </view>
     <view class="form-cell">

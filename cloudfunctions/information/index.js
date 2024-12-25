@@ -8,10 +8,10 @@ exports.main = async (event, context) => {
 
     let openid = cloud.getWXContext().OPENID;  // 获取用户的openid
     console.log(openid);
-    if (openid === '这里改成A的openid') {//_openidA放到单引号里
-        openid = '这里改成B的openid';//_openidB放到单引号
+    if (openid === 'o4_CY7RJTrlf66e71NEnJ9y7hBtw') {//_openidA放到单引号里
+        openid = 'o4_CY7cvAPa3yYaV1W4cXPizVbBw';//_openidB放到单引号
     } else {
-        openid = '这里改成A的openid';//_openidA放到单引号里
+        openid = 'o4_CY7RJTrlf66e71NEnJ9y7hBtw';//_openidA放到单引号里
     }
 
 

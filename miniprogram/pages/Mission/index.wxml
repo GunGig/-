@@ -1,16 +1,16 @@
 <wxs module="util" src="../util.wxs" />
 
 <view class="container white" wx:if="{{allMissions.length === 0}}">
-  <image class="background" src="Images/None.png" mode="aspectFit" />
+  <image class="background" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/None.png" mode="aspectFit" />
   <view class="title">暂无任务</view>
   <view class="subtitle">好像什么任务也没有...</view>
 </view>
 
 <swiper wx:if="{{allMissions.length > 0}}" indicator-dots="true" autoplay="true" interval="2000" duration="500" 
 style="height: 200px; width: 100%; background: white; ">
-      <swiper-item><image src="Images/MissionCover01.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image src="Images/MissionCover02.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
-      <swiper-item><image src="Images/MissionCover03.jpg" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/任务界面/work1.png" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/任务界面/work3.png" mode='widthFix' class="swiper-image" /></swiper-item>
+      <swiper-item><image src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/任务界面/work2.png" mode='widthFix' class="swiper-image" /></swiper-item>
 </swiper>
 
 <view class="container" wx:if="{{allMissions.length > 0}}">
@@ -31,10 +31,10 @@ style="height: 200px; width: 100%; background: white; ">
             <view class="mission-info_date">📅 {{util.cutStr(item.date, 10)}} 创建</view>
           </view>
           <view class="mission-info_author">
-            <image style="position: absolute; width: 100%; bottom: 0;" wx:if="{{item._openid === _openidA}}" mode="widthFix" src="Images/MissionA.png"/>
-            <image style="position: absolute; width: 100%; bottom: 0;" wx:if="{{item._openid === _openidB}}" mode="widthFix" src="Images/MissionB.png"/>
+            <image style="position: absolute; width: 100%; bottom: 0;" wx:if="{{item._openid === _openidA}}" mode="widthFix" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/User/MissionA.png"/>
+            <image style="position: absolute; width: 100%; bottom: 0;" wx:if="{{item._openid === _openidB}}" mode="widthFix" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/User/MissionB.png"/>
           </view>
-          <image wx:if="{{item.star}}" class="star" src="Images/Star.png" />
+          <image wx:if="{{item.star}}" class="star" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/Star.png" />
         </view>
       </mp-slideview>
     </view>
@@ -52,10 +52,10 @@ style="height: 200px; width: 100%; background: white; ">
             <view class="mission-info_date">📅 {{util.cutStr(item.date, 10)}} 创建</view>
           </view>
           <view class="mission-info_author">
-              <image style="position: absolute; width:100%; bottom: 0;" wx:if="{{item._openid === _openidA}}" mode="widthFix" src="Images/MissionA.png"/>
-              <image style="position: absolute; width:100%; bottom: 0;" wx:if="{{item._openid === _openidB}}" mode="widthFix" src="Images/MissionB.png"/>
+              <image style="position: absolute; width:100%; bottom: 0;" wx:if="{{item._openid === _openidA}}" mode="widthFix" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/User/MissionA.png"/>
+              <image style="position: absolute; width:100%; bottom: 0;" wx:if="{{item._openid === _openidB}}" mode="widthFix" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/User/MissionB.png"/>
           </view>
-          <image wx:if="{{item.star}}" class="star" src="Images/Star.png" />
+          <image wx:if="{{item.star}}" class="star" src="cloud://tutudaiban-6gc0ar293456061a.7475-tutudaiban-6gc0ar293456061a-1332361948/Loading/Star.png" />
         </view>
       </mp-slideview>
     </view>

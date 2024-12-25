@@ -78,6 +78,4 @@ module.exports = {
 - 最后如果有兴趣可以继续深入开发, 开发文档: https://developers.weixin.qq.com/miniprogram/dev/component/
 ## 旧版效果图
 >![Image](Pics/Previous.jpg)
-## 声明
-- 小程序内所有图片均来自网络，此项目非商用，侵删。
-- 若想使用此项目为商用，请先告知我，谢谢。
+
